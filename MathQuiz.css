@@ -1,0 +1,65 @@
+
+/* Dizajni i pergjithshem i faqes */
+body {
+    font-family: Arial, sans-serif;
+    background-color: hsl(20, 100%, 99%);
+    color: #120d01;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Pjesa e titullit */
+header {
+    text-align: center;
+    background-color: #631408;
+    color: white;
+    padding: 25px;
+    border-radius: 12px;
+}
+
+/* Permbajtja kryesore */
+main {
+    max-width: 800px;
+    margin: 25px auto;
+}
+
+/* Pyetjet */
+fieldset {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #dddddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+/* Titulli i seciles pyetje */
+legend {
+    font-weight: bold;
+    color: hsla(341, 67%, 58%, 0.452);
+}
+
+/* Fushat per te dhenat */
+input[type="text"],
+select {
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+/* Butonat */
+button {
+    background-color: #5b4bdb;
+    color: white;
+    padding: 12px 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+/* Kur e vendos mausin mbi buton */
+button:hover {
+    background-color: #4032ad;
+}

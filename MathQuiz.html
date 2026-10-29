@@ -1,0 +1,196 @@
+<MathQuiz html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Quiz</title>
+    <link rel="stylesheet" href="MathQuiz.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Math Quiz</h1>
+        <p>Testoni njohurite tuaja ne Matematike!</p>
+    </header>
+
+    <hr>
+
+    <main>
+
+        <h2>Miresevini ne Math Quiz!</h2>
+
+        <p>
+            Pergjigjuni pyetjeve te meposhtme dhe testoni aftesite tuaja ne Matematike.
+        </p>
+        <h3>Enter Your Details</h3>
+
+        <label for="studentName">Your Name:</label>
+        <input type="text" id="studentName" name="studentName"
+            placeholder="Enter your name">
+
+<br><br>
+
+
+
+<hr>
+    <section>
+        
+        <h3>Udhezime</h3>
+        <ul>
+        <li>Lexojeni me kujdes cdo pyetje.</li>
+        <li>Zgjidhni vetem nje pergjigje per cdo pyetje.</li>
+        <li>Perpiquni t'u pergjigjeni te gjitha pyetjeve.</li>
+        <li>Klikoni "Dergo pergjigjet" kur te keni mbarua</li>
+        </ul>
+    </section>
+
+        <form>
+            <form id="quiz-form">
+                
+            <fieldset>
+                <legend>Pyetja 1</legend>
+
+                <p>Sa eshte 5 + 7?</p>
+
+                <input type="radio" id="q1a" name="q1" value="10">
+                <label for="q1a">10</label><br>
+
+                <input type="radio" id="q1b" name="q1" value="12">
+                <label for="q1b">12</label><br>
+
+                <input type="radio" id="q1c" name="q1" value="13">
+                <label for="q1c">13</label><br>
+
+                <input type="radio" id="q1d" name="q1" value="15">
+                <label for="q1d">15</label>
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+                <legend>Pyetja 2</legend>
+
+                <p>Sa eshte 9 × 4?</p>
+
+                <input type="radio" id="q2a" name="q2" value="32">
+                <label for="q2a">32</label><br>
+
+                <input type="radio" id="q2b" name="q2" value="36">
+                <label for="q2b">36</label><br>
+
+                <input type="radio" id="q2c" name="q2" value="40">
+                <label for="q2c">40</label><br>
+
+                <input type="radio" id="q2d" name="q2" value="45">
+                <label for="q2d">45</label>
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+                <legend>Pyetja 3</legend>
+
+                <p>Sa eshte derivat f(x) = x²?</p>
+
+                <input type="radio" id="q3a" name="q3" value="x">
+                <label for="q3a">x</label><br>
+
+                <input type="radio" id="q3b" name="q3" value="2x">
+                <label for="q3b">2x</label><br>
+
+                <input type="radio" id="q3c" name="q3" value="x2">
+                <label for="q3c">x²</label><br>
+
+                <input type="radio" id="q3d" name="q3" value="2">
+                <label for="q3d">2</label>
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+                <legend>Pyetja 4</legend>
+
+                <p>Sa eshte rrenja katrore 81?</p>
+
+                <input type="radio" id="q4a" name="q4" value="7">
+                <label for="q4a">7</label><br>
+
+                <input type="radio" id="q4b" name="q4" value="8">
+                <label for="q4b">8</label><br>
+
+                <input type="radio" id="q4c" name="q4" value="9">
+                <label for="q4c">9</label><br>
+
+                <input type="radio" id="q4d" name="q4" value="10">
+                <label for="q4d">10</label>
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+                <legend>Pyetja 5</legend>
+
+                <p>Sa eshte 15 - 6?</p>
+
+                <input type="radio" id="q5a" name="q5" value="7">
+                <label for="q5a">7</label><br>
+
+                <input type="radio" id="q5b" name="q5" value="8">
+                <label for="q5b">8</label><br>
+
+                <input type="radio" id="q5c" name="q5" value="9">
+                <label for="q5c">9</label><br>
+
+                <input type="radio" id="q5d" name="q5" value="10">
+                <label for="q5d">10</label>
+            </fieldset>
+
+            <br>
+
+            <button type="submit">Perfundo</button>
+            <button type="reset">Provo perseri</button>
+
+            </form>
+
+        </form>
+
+    </main>
+
+    <hr>
+
+    <script src="script.js"></script>
+
+</body>
+
+<label for="level">Choose Your Level:</label>
+
+<select id="level" name="level">
+    <option value=""></option>
+    <option value="easy">Easy</option>
+    <option value="medium">Medium</option>
+    <option value="hard">Hard</option>
+</select>
+
+
+<br><br>
+
+<hr>
+
+<h3>Choose a Math Category</h3>
+
+<label for="category">Math Category:</label>
+
+<select id="category" name="category">
+    <option value="arithmetic">Arithmetic</option>
+    <option value="algebra">Algebra</option>
+    <option value="geometry">Geometry</option>
+    <option value="calculus">Calculus</option>
+</select>
+
+<br><br>
+
+<hr>
+</html>
+
